@@ -269,6 +269,13 @@ dotnet_naming_style.begins_with_c_.required_suffix =
 dotnet_naming_style.begins_with_c_.word_separator = 
 dotnet_naming_style.begins_with_c_.capitalization = pascal_case
 
+# Disabled diagnostics notes/warnings
+
+# Use primary constructor (IDE0290)
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0290
+dotnet_diagnostic.IDE0290.severity = none
+
+
 [*.{yaml,yml}]
 indent_style = space
 indent_size = 2
